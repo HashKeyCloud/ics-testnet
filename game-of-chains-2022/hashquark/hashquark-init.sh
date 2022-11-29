@@ -9,10 +9,10 @@ NODE_HOME=~/.hashquark
 NODE_MONIKER=hashquark
 # ***
 
-CHAIN_BINARY_URL='https://github.com/hyphacoop/ics-testnets/raw/main/game-of-chains-2022/apollo/interchain-security-cd'
+CHAIN_BINARY_URL='https://github.com/HashQuark-Research1/ics-testnet/raw/main/game-of-chains-2022/hashquark/hashquarkd'
 CHAIN_BINARY='hashquarkd'
 CHAIN_ID=hashquark
-PERSISTENT_PEERS="4b5cee15e6a9c4b96b8c1c4f396a18b0461edc17@104.248.161.33:26656,835173badfc41ecbd867a0395c6a452bda2bb90f@178.62.105.39:26656"
+PERSISTENT_PEERS="76e5c6f4a467ef9bcefad6cd2c886636c6c8cff0@152.32.169.128:26656"
 
 # Install go 1.19.2
 echo "Installing go..."
@@ -33,11 +33,10 @@ chmod +x $HOME/go/bin/$CHAIN_BINARY
 # echo "Installing build-essential..."
 # sudo apt install build-essential -y
 # rm -rf interchain-security
-# git clone https://github.com/cosmos/interchain-security.git
+# git clone https://github.com/HashQuark-Research1/hashquark-ics-testnet.git
 # cd interchain-security
-# git checkout tags/v0.2.0
+# git checkout tags/v0.1.0
 # make install
-# mv $HOME/go/bin/interchain-security-cd $HOME/go/bin/$CHAIN_BINARY
 
 export PATH=$PATH:$HOME/go/bin
 

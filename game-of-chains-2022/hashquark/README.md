@@ -8,8 +8,8 @@ Contents
 ## Status
 
 * Timeline
-  * 2022-11-10: Spawn time: `2022-12-01T12:00:00.000000Z`
-  * 2022-11-09: Proposal 2 voting period ends
+  * 2022-12-01: Spawn time: `2022-12-01T10:00:00.000000Z`
+  * 2022-12-01: Proposal 2 voting period ends
   * 2022-11-29: Proposal 2 goes into voting period
   * 2022-11-29: Chain initialized
 
@@ -41,13 +41,13 @@ The genesis file with was generated using the following settings:
 * Chain ID: `hashquark`
 * Denom: `uhash`
 * Signed blocks window: `"8640"`
-* Genesis file **without CCV state**: [`hashquark-fresh-genesis.json`](hashquark-fresh-genesis.json), SHA256: `f244826eed1267bc4b5c17193cb1413c29365ceb85a58c32a3522ba1555ba2dc`
+* Genesis file **without CCV state**: [`hashquark-fresh-genesis.json`](hashquark-fresh-genesis.json), SHA256: `e9cbf34117efed50b2a514584304cc92b9c95c8fcff86f282b98ef9f05826e71`
   * **This is provided only for verification, this is not the genesis file validators should be running their nodes with.**
 
 ## Endpoints
 
-* **p2p seeds : `c5f4b33d904adaeacc1ca05bfcd7376ca4d51519@tenderseed.ccvalidators.com:29029`**
-* **p2p persistent peers : `4b5cee15e6a9c4b96b8c1c4f396a18b0461edc17@104.248.161.33:26656,835173badfc41ecbd867a0395c6a452bda2bb90f@178.62.105.39:26656`**
+* **p2p seeds : `76e5c6f4a467ef9bcefad6cd2c886636c6c8cff0@152.32.169.128:26656`**
+* **p2p persistent peers : `76e5c6f4a467ef9bcefad6cd2c886636c6c8cff0@152.32.169.128:26656`**
 * These peers represent the `hashquark-coordinator` and `hashquark-backup` validators (run by the testnet coordinators). 
 * The `hashquark-backup` validator node will be running on hashquark shortly after the genesis file that includes the CCV state (Cross Chain Validation state) has been published.
 * Please keep in mind that any validator that does not come online after 67% of the voting power is up and running, is likely to be slashed for downtime, potentially resulting in being jailed (the `signed_blocks_window` parameter is set to `8640`).
