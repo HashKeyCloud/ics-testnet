@@ -38,15 +38,15 @@
       "balances": [
         {
           "address": "cosmos16h4y2kjnax4s9vwfn87tpl37emy7h4hhg3wn69",
-          "coins": [{ "amount": "1000000000000000", "denom": "ustrange" }]
+          "coins": [{ "amount": "1000000000000000", "denom": "uhash" }]
         },
         {
           "address": "cosmos1rhvj25tutkld9p43y6w8pdfhcfzk270dc76tmn",
-          "coins": [{ "amount": "1000000000000000", "denom": "ustrange" }]
+          "coins": [{ "amount": "1000000000000000", "denom": "uhash" }]
         },
         {
           "address": "cosmos1wy87h695q4uk6ta3g9ntqhy4t0raqc62p8ppwl",
-          "coins": [{ "amount": "1000000000000000", "denom": "ustrange" }]
+          "coins": [{ "amount": "1000000000000000", "denom": "uhash" }]
         }
       ],
       "denom_metadata": [],
@@ -155,6 +155,6 @@
     "validator": { "pub_key_types": ["ed25519"] },
     "version": {}
   },
-  "genesis_time": "2022-12-01T12:00:00.000000000Z",
+  "genesis_time": "2022-12-02T12:00:00.000000000Z",
   "initial_height": "1"
 }
