@@ -9,8 +9,8 @@ Contents
 
 * Timeline
   * 2022-12-01: Spawn time: `2022-12-01T10:00:00.000000Z`
-  * 2022-12-01: Proposal 30 voting period ends
-  * 2022-11-29: Proposal 30 goes into voting period
+  * 2022-12-01: Proposal 31 voting period ends
+  * 2022-11-29: Proposal 31 goes into voting period
   * 2022-11-29: Chain initialized
 
 Hashquark will launch as a consumer chain through a governance proposal in the `provider` chain. Read the [Consumer Chain Start Process](/docs/Consumer-Chain-Start-Process.md) page for more details about the workflow.
