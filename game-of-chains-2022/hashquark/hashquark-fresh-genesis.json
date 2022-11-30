@@ -69,7 +69,7 @@
         "historical_entries": "10000",
         "provider_fee_pool_addr_str": "",
         "transfer_timeout_period": "3600s",
-        "unbonding_period": "1728000s"
+        "unbonding_period": "345600s"
       },
       "pending_slash_requests": { "requests": [] },
       "provider_channel_id": "",
