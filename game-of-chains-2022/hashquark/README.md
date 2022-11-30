@@ -41,7 +41,7 @@ The genesis file with was generated using the following settings:
 * Chain ID: `hashquark`
 * Denom: `uhash`
 * Signed blocks window: `"8640"`
-* Genesis file **without CCV state**: [`hashquark-fresh-genesis.json`](hashquark-fresh-genesis.json), SHA256: `e9cbf34117efed50b2a514584304cc92b9c95c8fcff86f282b98ef9f05826e71`
+* Genesis file **without CCV state**: [`hashquark-fresh-genesis.json`](hashquark-fresh-genesis.json), SHA256: `8c88ac7314dfaefec28196c2ffbc1b47bce52b1e4f9f57563e45ac4ab47ab6c9`
   * **This is provided only for verification, this is not the genesis file validators should be running their nodes with.**
 
 ## Endpoints
